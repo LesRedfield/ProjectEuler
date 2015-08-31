@@ -24,6 +24,7 @@ end
 ar_ar.each do |x|
   if ((x[0]*x[0])+(x[1]*x[1])) == (x[2]*x[2])
     triplet = x
+    break # there is only one answer
   end
 end
 
